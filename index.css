@@ -1,0 +1,140 @@
+/*
+ul.nav {
+   
+   
+    justify-content: center;
+    size: 100%;
+  position: sticky;
+
+  }
+  
+  div.header
+  {
+    background-color:black;
+    position: fixed;
+  }
+a.nav-link 
+{
+  color:white;
+  font-style: normal;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+*/
+ 
+  body
+  {
+    background-color:black;
+  }
+  img.logo{
+    display: block;
+    width: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+  }
+a.link
+{
+  color:white;
+  font-style: normal;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 1%;
+  padding-bottom: 1%;
+}
+
+
+/*
+  img.pics1
+  {
+    padding-top: 10%;
+    width: 32%;
+    border-radius: 5%;
+    padding-left: 3%;
+
+  }
+  
+  img.pics
+  {
+    padding-left: 3%;
+    padding-top: 2%;
+    width: 32%;
+    border-radius: 5%;
+
+  }
+
+  img.pics2
+  {
+    padding-left: 3%;
+    padding-top: 2%;
+    width: 32%;
+    border-radius: 5%;
+    padding-bottom: 2%;
+
+  }
+  */
+
+
+  footer {
+    background-color:white;
+    padding: 10px;
+    width: 100%;
+    bottom: 0px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100%;
+    
+  }
+  
+  div.main
+  {
+    display: flex;
+    
+  }
+  div.social
+  
+  {
+    
+    padding-left: 1%;
+    
+  }
+  div.spell
+  {
+    padding-left: 30%;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    grid-gap: 10px;
+    background-color: black;
+    
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+  
+  .grid-container > div {
+    background-color: black;
+    border: 3px solid gray;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5%;
+  }
+
+
+  
+@media all and (max-width: 720px) {
+  body {
+    size: 720px;
+    
+  }
+ 
+
+  footer {
+  height: 50%;
+  font-size: small;
+    
+  }
+}
